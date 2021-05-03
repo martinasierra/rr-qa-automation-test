@@ -7,6 +7,7 @@
     "@wdio/cli": "^7.5.3"
   },
   "devDependencies": {
+    "@wdio/cucumber-framework": "^7.5.3",
     "@wdio/jasmine-framework": "^7.5.3",
     "@wdio/local-runner": "^7.5.5",
     "@wdio/spec-reporter": "^7.5.3",
@@ -15,7 +16,7 @@
     "wdio-chromedriver-service": "^7.0.0"
   },
   "scripts": {
-    "test": "npx wdio run ./wdio.conf.js"
+    "test": "npx wdio run ./wdio.conf --spec test.js"
   },
   "repository": {
     "type": "git",
