@@ -5,7 +5,7 @@ describe('Google Page', () => {
     });
 
     it('should introduce the text Wikipedia in the search bar and press enter', () => {
-        let input = $('[type="text"');
+        let input = $('[type="text"]');
         input.addValue('Wikipedia');
         browser.keys("\uE007");
     });
